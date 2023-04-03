@@ -11,18 +11,24 @@ struct ContentView: View {
     
     // TEST
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Lizunka I Kamilka")
-            Text("Lizunka")
-            Text("Kamilka")
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
+        ZStack {
+            
+            Color.green
+                .ignoresSafeArea()
+            
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Lizunka I Kamilka")
+                Text("Lizunka")
+                Text("Kamilka")
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
