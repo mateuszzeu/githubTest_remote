@@ -11,6 +11,7 @@
 		6182E86F29DAEE48009B7AF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6182E86E29DAEE48009B7AF3 /* ContentView.swift */; };
 		6182E87129DAEE4A009B7AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6182E87029DAEE4A009B7AF3 /* Assets.xcassets */; };
 		6182E87429DAEE4A009B7AF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6182E87329DAEE4A009B7AF3 /* Preview Assets.xcassets */; };
+		61C50A3629DAEFCC001BF660 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C50A3529DAEFCC001BF660 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6182E86E29DAEE48009B7AF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6182E87029DAEE4A009B7AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6182E87329DAEE4A009B7AF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61C50A3529DAEFCC001BF660 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				6182E86C29DAEE48009B7AF3 /* githubTestApp.swift */,
 				6182E86E29DAEE48009B7AF3 /* ContentView.swift */,
+				61C50A3529DAEFCC001BF660 /* SecondView.swift */,
 				6182E87029DAEE4A009B7AF3 /* Assets.xcassets */,
 				6182E87229DAEE4A009B7AF3 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61C50A3629DAEFCC001BF660 /* SecondView.swift in Sources */,
 				6182E86F29DAEE48009B7AF3 /* ContentView.swift in Sources */,
 				6182E86D29DAEE48009B7AF3 /* githubTestApp.swift in Sources */,
 			);
